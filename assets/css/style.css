@@ -94,26 +94,56 @@ aside form p {
     margin: 5px 0;
 }
 
-.my-projects {
+#my-projects {
     width: 70%;
-    margin-top: 30px;
-    margin-left: 2%;
+    margin: 0 2% 2% 2%;
+    background-color: lightgray;
+    padding-bottom: 2%;
+}
+
+.my-projects {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.project1 {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    padding: 2%;
+}
+
+.project1 a h3, .project a h3 {
+    color: black;
+}
+
+.projImg {
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+/* Taken from https://stackoverflow.com/questions/40534083/css-block-on-top-of-image */
+.textOverlap {
     background-color: lightgray;
+    position: absolute;
+    top: 80%;
+    height: 10%;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    width: 96%;
 }
 
 .project {
-    display: block;
-    width: 325px;
-    height: 250px;
-    margin: 5%;
+    position: relative;
+    width: 50%;
+    height: 200px;
     background-color: gray;
-    padding: 20px;
-    border: 4px solid black;
+    padding: 2%;
 }
 
+/*
 .project .hide {
     display: none;
 }
@@ -130,6 +160,7 @@ aside form p {
     font-size: 150%;
     text-align: center;
 }
+*/
 
 .footer {
     background-color: var(--headerBackground);
