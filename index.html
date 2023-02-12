@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Marcus Jonas</title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/variables.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
@@ -12,9 +14,9 @@
             <h1>Marcus Jonas</h1>
             <nav>
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">My Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-projects">My Projects</a></li>
+                    <li><a href="#contact-info">Contact Me</a></li>
                     <li><a href="#">Resume</a></li>
                 </ul>
             </nav>
@@ -22,7 +24,7 @@
 
         <main>
             <!-- The About Me section, detailing personal information and interests -->
-            <section class="about-me">
+            <section id="about-me" class="about-me">
                 <img src="./assets/images/2021_MarcusJonas_Headshot copy.jpeg" class="float-left" alt="A picture of me, Marcus Jonas" />
                 <h2>About Me</h2>
                 <p>
@@ -64,6 +66,7 @@
             <aside class="contact-me">
                 <h3>Get in touch</h3>
                 <!-- Form for sending email -->
+                <p>Feel free to send me a message directly using the form below, or find my contact information at the bottom of the webpage.</p>
                 <form>
                     <p>
                         <label for="username">Name:</label>
@@ -79,7 +82,8 @@
                     </p>
                     <p>
                         <label for="comment">Message:</label>
-                        <textarea name="Text" id="text" cols="32" rows="8" placeholder="Look forward to hearing from you!"></textarea>
+                        <p></p>
+                        <textarea name="Text" id="text" placeholder="Look forward to hearing from you!"></textarea>
                     </p>
                     <p>
                         <!-- Code snippet taken from W3Schools, URL:https://www.w3schools.com/html/html_form_input_types.asp -->
@@ -88,29 +92,51 @@
                 </form>
             </aside>
 
-            <section class="my-projects">
-                <h2>My Projects</h2>
+            <h2>My Projects</h2>
+            <section id="my-projects" class="my-projects">
                 <section class="project">
-                    <h3>Project 1: Horiseon</h3>
-                    <p>
-                        This project involved simplifying source code by cutting down on dublicates and all that. 
+                    <h3>Project 1:</h3>
+                    <h3>Horiseon</h3>
+                    <h3 class="hide">Horiseon</h3>
+                    <p class="hide">
+                        This project involved simplifying source code by cutting down on dublicates and all that. Please find the product website <a href="https://mjonas14.github.io/horiseon-refactor/">here</a>. 
                     </p>
                 </section>
                 <section class="project">
-                    <h3>The other one</h3>
-                    <p>
-                        This is for other projects I do and work on
+                    <h3>Project 2:</h3>
+                    <h3>Portfolio</h3>
+                    <h3 class="hide">Portfolio Website</h3>
+                    <p class="hide">
+                        My second project was to create my portfolio website using html and CSS. What you are currently looking at is the product of my second project. Any feedback would be appreciated. Please feel free to send a message through the form above.
+                    </p>
+                </section>
+                <section class="project">
+                    <h3>Project 3:</h3>
+                    <h3>Coming soon...</h3>
+                    <h3 class="hide">Coming soon...</h3>
+                    <p class="hide">
+                        Patience young grasshopper. 
+                    </p>
+                </section>
+                <section class="project">
+                    <h3>Project 4:</h3>
+                    <h3>Coming soon...</h3>
+                    <h3 class="hide">Coming soon...</h3>
+                    <p class="hide">
+                        Your time will come. 
                     </p>
                 </section>
             </section>
 
-            <section clss="contact">
-                <h2>Get in touch!</h2>
-            </section>
         </main>
     </body>
 
-    <footer>
+    <footer class="footer">
         <h3>Thanks for visiting!</h3>
+        <ul id="contact-info" class="contact-info">
+            <li>Phone: +1 609-285-8148</li>
+            <li>E-mail: <a href="marcus.jonas14@gmail.com">marcus.jonas14@gmail.com</a></li>
+            <li>Github: <a href="https://github.com/mjonas14">mjonas14</a></li>
+        </ul>
     </footer>
 </html>

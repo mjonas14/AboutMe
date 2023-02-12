@@ -5,10 +5,10 @@ body {
 }
 
 header {
-    padding-top: 30px;
+    padding: 50px 0 20px 0;
     text-align: center;
-    background-color: #13293d;
-    color: lightgray;
+    background-color: var(--headerBackground);
+    color: var(--headerText);
 }
 
 nav ul {
@@ -17,9 +17,14 @@ nav ul {
     list-style-type: none;
 }
 
+nav ul li a:hover {
+    color: darkgray;
+}
+
 h1 {
     font-size: 250%;
     margin-left: 35px;
+    margin-bottom: 40px;
 }
 
 header nav ul li a {
@@ -38,12 +43,17 @@ nav a {
     width: 70%;
     display: inline-block;
     background-color: lightgray;
-    margin-top: 50px;
-    margin-left: 2%;
+    margin: 2%;
+    padding: 1%;
+}
+
+h2 {
+    font-size: 160%;
+    padding: 1%;
 }
 
 h3 {
-    margin: 0 0 8px 0;
+    font-size: 120%;
 }
 
 .float-left {
@@ -60,37 +70,78 @@ h3 {
 }
 
 .bio {
-    margin-left: 80px;
+    margin: 0 2% 2% 3%;
 }
 
 .contact-me {
-    max-width: 30%;
-    margin-top: 50px;
-    margin-right: 2%;
-    padding: 20px;
+    margin: 2% 2% 0 0;
+    padding: 2%;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-
-
-.my-projects {
-    width: 75%;
-    margin-top: 30px;
-    margin-left: 2%;
-    background-color: lightgray;
+aside h3, aside p {
+    margin-bottom: 10%;
 }
 
-.my-projects h2 {
-    margin-left: 3%;
+aside form p {
+    display: flex; 
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.my-projects {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: lightgray;
 }
 
 .project {
     display: block;
+    width: 325px;
+    height: 250px;
     margin: 5%;
     background-color: gray;
+    padding: 20px;
+    border: 4px solid black;
+}
+
+.project .hide {
+    display: none;
+}
+
+.project:hover .hide {
+    display: block;
+}
+
+.project:hover h3 {
+    display: none;
+}
+
+.project h3 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--headerBackground);
+    color: var(--headerText);
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-info {
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--headerText)
 }
