@@ -1,86 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcus Jonas</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
-<body>
-    <header>
-        <h1>Marcus Jonas</h1>
-        <nav>
-            <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Projects</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marcus Jonas</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Marcus Jonas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
 
-</body>
+        <main>
+            <!-- The About Me section, detailing personal information and interests -->
+            <section class="about-me">
+                <img src="./assets/images/2021_MarcusJonas_Headshot copy.jpeg" class="float-left" alt="A picture of me, Marcus Jonas" />
+                <h2>About Me</h2>
+                <p>
+                    <h3>Bio</h3>
+                </p>
+                <p class="bio">
+                    Hi and welcome to my page. My name is Marcus Jonas, as can be seen 
+                    in the title. I was born in London, UK, in December 1998 where I 
+                    went to school and competed in rowing until the end of sith form 
+                    (our high school). I studied at Princeton University from 2017 
+                    until spring of 2021, much of it being affected by COVID-19. 
+                    This provided a very unique experience for me and my cohort, 
+                    though we do wish to have had a normal senior year. Then again, 
+                    it can be seen as a blessing if looked at a different way. The I joined 
+                    this bookcamp in January 2023, and am having a blast. Hope you enjoy 
+                    the content below, and please dont hesitate to reach out if you have 
+                    any questions. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Temporibus consequuntur adipisci soluta, ad libero porro nesciunt, debitis 
+                    praesentium consectetur nobis, ipsa laborum ex blanditiis? Deserunt 
+                    veritatis soluta perspiciatis saepe corporis ea rem vero distinctio? 
+                    Eligendi repellat dignissimos repudiandae laudantium architecto iste ab 
+                    impedit asperiores beatae. Libero quo inventore reiciendis quos eveniet dolor 
+                    nesciunt ab sed labore aliquid vel assumenda beatae sequi error id, praesentium 
+                    debitis nobis? 
+                </p>
+                <p>
+                    <h3 class="bio">Hobbies</h3>
+                </p>
+                <p class="bio">
+                    In my spare time I like to cook, bake, go on long bike rides, code, 
+                    draw with crayons, and mess around with mechanical keyboards (the last 
+                    one being a new obsession that my girlfriend doesn't seem to like as 
+                    much as me. One day she will realise...). I also love spending time 
+                    with friends and eat chocolate. Loads and loads of chocolate. 
+                </p>
+            </section>
 
-<!-- The About Me section, detailing personal information and interests -->
-<section class="about-me">
-    <img src="./assets/images/2021_MarcusJonas_Headshot copy.jpeg" class="float-left" alt="A picture of me, Marcus Jonas" />
-    <h2>About Me</h2>
-    <p>
-        <h3>Bio</h3>
-    </p>
-    <p class="bio">
-        Hi and welcome to my page. My name is Marcus Jonas, as can be seen 
-        in the title. I was born in London, UK, in December 1998 where I 
-        went to school and competed in rowing until the end of sith form 
-        (our high school). I studied at Princeton University from 2017 
-        until spring of 2021, much of it being affected by COVID-19. 
-        This provided a very unique experience for me and my cohort, 
-        though we do wish to have had a normal senior year. Then again, 
-        it can be seen as a blessing if looked at a different way. The I joined 
-        this bookcamp in January 2023, and am having a blast. Hope you enjoy 
-        the content below, and please dont hesitate to reach out if you have 
-        any questions. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur adipisci soluta, ad libero porro nesciunt, debitis 
-        praesentium consectetur nobis, ipsa laborum ex blanditiis? Deserunt 
-        veritatis soluta perspiciatis saepe corporis ea rem vero distinctio? 
-        Eligendi repellat dignissimos repudiandae laudantium architecto iste ab 
-        impedit asperiores beatae. Libero quo inventore reiciendis quos eveniet dolor 
-        nesciunt ab sed labore aliquid vel assumenda beatae sequi error id, praesentium 
-        debitis nobis? 
-    </p>
-    <p>
-        <h3 class="bio">Hobbies</h3>
-    </p>
-    <p class="bio">
-        In my spare time I like to cook, bake, go on long bike rides, code, 
-        draw with crayons, and mess around with mechanical keyboards (the last 
-        one being a new obsession that my girlfriend doesn't seem to like as 
-        much as me. One day she will realise...). I also love spending time 
-        with friends and eat chocolate. Loads and loads of chocolate. 
-    </p>
-</section>
+            <!-- Contact form on the right side of the page -->
+            <aside class="contact-me">
+                <h3>Get in touch</h3>
+                <!-- Form for sending email -->
+                <form>
+                    <p>
+                        <label for="username">Name:</label>
+                        <input id="username" type="text" placeholder="First Last">
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="text" placeholder="example@gmail.com">
+                    </p>
+                    <p>
+                        <label for="number">Phone:</label>
+                        <input id="number" type="number" placeholder="+1 609 xxx xxxx">
+                    </p>
+                    <p>
+                        <label for="comment">Message:</label>
+                        <textarea name="Text" id="text" cols="32" rows="8" placeholder="Look forward to hearing from you!"></textarea>
+                    </p>
+                    <p>
+                        <!-- Code snippet taken from W3Schools, URL:https://www.w3schools.com/html/html_form_input_types.asp -->
+                        <input type="button" onclick="alert('Message successfully sent!')" value="Submit">
+                    </p>
+                </form>
+            </aside>
 
-<section class="my-projects">
-    <h2>My Projects</h2>
-    <section>
-        <h3>Horiseon</h3>
-        <p>
-            This project involved simplifying source code by cutting down on dublicates and all that. 
-        </p>
-    </section>
-    <section>
-        <h3>The other one</h3>
-        <p>
-            This is for other projects I do and work on
-        </p>
-    </section>
-</section>
+            <section class="my-projects">
+                <h2>My Projects</h2>
+                <section class="project">
+                    <h3>Project 1: Horiseon</h3>
+                    <p>
+                        This project involved simplifying source code by cutting down on dublicates and all that. 
+                    </p>
+                </section>
+                <section class="project">
+                    <h3>The other one</h3>
+                    <p>
+                        This is for other projects I do and work on
+                    </p>
+                </section>
+            </section>
 
-<section clss="contact">
-    <h2>Get in touch!</h2>
-</section>
+            <section clss="contact">
+                <h2>Get in touch!</h2>
+            </section>
+        </main>
+    </body>
 
-
-
+    <footer>
+        <h3>Thanks for visiting!</h3>
+    </footer>
 </html>
