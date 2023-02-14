@@ -91,7 +91,7 @@ aside h3, aside p {
 aside form p {
     display: flex; 
     justify-content: space-between;
-    margin: 5px 0;
+    margin: 2% 0;
 }
 
 #my-projects {
@@ -130,37 +130,16 @@ aside form p {
     position: absolute;
     top: 80%;
     height: 10%;
-    border-right: 3px solid black;
+    font-size: 100%;
     border-left: 3px solid black;
-    width: 96%;
 }
 
 .project {
     position: relative;
+    height: 80%;
     width: 50%;
-    height: 200px;
-    background-color: gray;
     padding: 2%;
 }
-
-/*
-.project .hide {
-    display: none;
-}
-
-.project:hover .hide {
-    display: block;
-}
-
-.project:hover h3 {
-    display: none;
-}
-
-.project h3 {
-    font-size: 150%;
-    text-align: center;
-}
-*/
 
 .footer {
     background-color: var(--headerBackground);
