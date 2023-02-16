@@ -69,7 +69,7 @@ h3 {
     max-height: 310px;
 }
 
-.bio {
+.aboutMeText {
     margin: 0 2% 2% 3%;
 }
 
@@ -154,4 +154,8 @@ aside form p {
     display: flex;
     justify-content: space-evenly;
     color: var(--headerText)
+}
+
+.contact-links {
+    color: var(--headerText);
 }
