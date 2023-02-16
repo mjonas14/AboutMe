@@ -10,10 +10,10 @@ Hope you enjoy the page!
 
 The use of the webpage is very simple. The links in the navigation bar can be clicked, and upon clicking will scroll the UI to the corresponding section for ease of moving around the webpage. The images in the My Projects section can also be clicked and will take you to the launched application the project refers to. As you will find, clicking Project 2 will bring you back to the webpage you are currently on, as this is the application the project refers to. Project 3 hasn't yet been started, but will be added as it is completed. 
 
-Screenshot of clickable navigation bar: 
+Screenshot of clickable navigation bar:  
 ![Alt text](assets/images/screenshot_navbar.png)
 
-Screenshot of clickable images in the My Projects section: 
+Screenshot of clickable images in the My Projects section:  
 ![Alt text](assets/images/screenshot_project1.png)
 
 The form on the right hand side of the page can be used. Note the message that displays upon pressing Send! my contact information is also listed at the bottom of the page if easier for the user, with the last two links to email and GitHub profile. 
@@ -25,7 +25,7 @@ Screenshot of form:
 
 This webpage was coded from scratch by me, with help from class slides and one or two lines from the internet. 
 
-The class **textOverlap** in style.css was borrowed from: https://stackoverflow.com/questions/40534083/css-block-on-top-of-image
+The class **textOverlap** in style.css was borrowed from: https://stackoverflow.com/questions/40534083/css-block-on-top-of-image  
 Code line 97 in the index.html was borrowed from: https://www.w3schools.com/html/html_form_input_types.asp
 
 ## License
