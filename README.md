@@ -18,7 +18,7 @@ Screenshot of clickable images in the My Projects section:
 
 The form on the right hand side of the page can be used. Note the message that displays upon pressing Send! my contact information is also listed at the bottom of the page if easier for the user, with the last two links to email and GitHub profile. 
 
-Screenshot of form: 
+Screenshot of form:  
 ![Alt text](assets/images/screenshot_form.png)
 
 ## Credits
