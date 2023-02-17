@@ -16,7 +16,7 @@ Screenshot of clickable navigation bar:
 Screenshot of clickable images in the My Projects section:  
 ![Alt text](assets/images/screenshot_project1.png)
 
-The form on the right hand side of the page can be used. Note the message that displays upon pressing Send! my contact information is also listed at the bottom of the page if easier for the user, with the last two links to email and GitHub profile. 
+The form on the bottom has been programmed to vanish at a screen width of 1350px so that the boxes dont go out of shape.  
 
 Screenshot of form:  
 ![Alt text](assets/images/screenshot_form.png)

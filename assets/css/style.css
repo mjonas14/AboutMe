@@ -39,11 +39,12 @@ nav a {
     text-decoration: none;
 }
 
-.about-me {
+.about-me, #my-projects {
+    display: block;
+    align-self: center;
     width: 70%;
-    display: inline-block;
+    margin: 2% auto 2% auto;
     background-color: lightgray;
-    margin: 2%;
     padding: 1%;
 }
 
@@ -71,34 +72,6 @@ h3 {
 
 .aboutMeText {
     margin: 0 2% 2% 3%;
-}
-
-.contact-me {
-    margin: 2% 2% 0 0;
-    padding: 2%;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-aside h3, aside p {
-    margin-bottom: 10%;
-}
-
-aside form p {
-    display: flex; 
-    justify-content: space-between;
-    margin: 2% 0;
-}
-
-#my-projects {
-    width: 70%;
-    margin: 0 2% 2% 2%;
-    background-color: lightgray;
-    padding-bottom: 2%;
 }
 
 .my-projects {
@@ -141,6 +114,25 @@ aside form p {
     padding: 2%;
 }
 
+.contact-me {
+    margin: 2% auto 2% auto;
+    padding: 2%;
+    clear: both;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+aside h3, aside p {
+    margin-bottom: 10%;
+}
+
+aside form p {
+    display: flex; 
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
 .footer {
     background-color: var(--headerBackground);
     color: var(--headerText);
@@ -159,3 +151,10 @@ aside form p {
 .contact-links {
     color: var(--headerText);
 }
+
+@media screen and (max-width: 1350px) {
+    .contact-me {
+        display: none;
+    }
+}
+
